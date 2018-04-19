@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-sceneSetups: []
-=======
 sceneSetups:
 - path: Assets/Scenes/Test Scene.unity
   isLoaded: 1
   isActive: 1
->>>>>>> John's-Branch
