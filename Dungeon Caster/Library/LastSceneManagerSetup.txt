@@ -1,4 +1,4 @@
 sceneSetups:
-- path: C:/Users/John/Documents/GitHub/firebase-unity/testapp/Assets/scene_01.unity
+- path: Assets/Scenes/Test Scene.unity
   isLoaded: 1
   isActive: 1
