@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id" xmlns:tools="http://schemas.android.com/tools">
+  <string name="firebase_database_url" translatable="false">https://dungeon-caster.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">205556800753</string>
+  <string name="google_storage_bucket" translatable="false">dungeon-caster.appspot.com</string>
+  <string name="project_id" translatable="false">dungeon-caster</string>
+  <string name="google_api_key" translatable="false">AIzaSyAvMbRoGHqpXMrbtLs8FkhBe8bKqNZcoXM</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAvMbRoGHqpXMrbtLs8FkhBe8bKqNZcoXM</string>
+  <string name="google_app_id" translatable="false">1:205556800753:android:80e728402722a018</string>
+  <string name="default_web_client_id" translatable="false">205556800753-2totjoc7q7u7ou63fnkn5vs1ssqng25l.apps.googleusercontent.com</string>
+</resources>

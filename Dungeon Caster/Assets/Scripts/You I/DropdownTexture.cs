@@ -7,9 +7,9 @@ public class DropdownTexture : MonoBehaviour {
 
     public GameObject mapTexture;
     public Dropdown textureDropdown;
-    public Material stoneMat;
-    public Material woodMat;
-    public Material grassMat;
+    public Material StoneMat;
+    public Material WoodMat;
+    public Material GrassMat;
 
 
     void Thing()
@@ -21,14 +21,14 @@ public class DropdownTexture : MonoBehaviour {
     void Update () {
         switch (textureDropdown.value)
         {
+            case 0:
+                mapTexture.GetComponent<Renderer>().material = GrassMat;
+                break;
             case 1:
-                mapTexture.GetComponent<Renderer>().material = stoneMat;
+                mapTexture.GetComponent<Renderer>().material = WoodMat;
                 break;
             case 2:
-                mapTexture.GetComponent<Renderer>().material = woodMat;
-                break;
-            case 3:
-                mapTexture.GetComponent<Renderer>().material = grassMat;
+                mapTexture.GetComponent<Renderer>().material = StoneMat;
                 break;
         }
 	}
