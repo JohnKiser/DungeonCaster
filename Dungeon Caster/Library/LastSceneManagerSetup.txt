@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Test Scene.unity
+- path: Assets/BayatGames/SaveGameFree/Examples/Save Position/Save Position.unity
   isLoaded: 1
   isActive: 1
